@@ -28,20 +28,20 @@ h1 {
 }
 
 /* Stylizes and organizes Bookmark Tabs */
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 /* Image of business meeting */
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -51,18 +51,18 @@ header div ul li {
 }
 
 /* Stylization of content boxes & positioning of images for the content boxes */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.nav-info {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.nav-info img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.nav-info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -93,18 +93,16 @@ header div ul li {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit-info {
     margin-bottom: 32px;
 }
 
-
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefit-info h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefit-info img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
